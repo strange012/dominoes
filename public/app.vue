@@ -49,7 +49,7 @@
                 this.offGame = false
                 let io = require('socket.io-client')
                 this.socket = io()
-                this.socket.on('connect', () =>
+                this.socket.on('connect', (window.location.href) =>
                 {
                     console.log(this.socket.id)
                     this.socket.on('start-game', () =>
