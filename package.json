@@ -42,8 +42,8 @@
     "serve-favicon": "~2.3.0",
     "socket.io": "^1.7.3",
     "socket.io-client": "^1.7.4",
-    "vue": "latest",
-    "vue-loader": "^12.0.3"
+    "vue": "^2.3.3",
+    "vue-loader": "^12.0.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
