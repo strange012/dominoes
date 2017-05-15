@@ -47,7 +47,7 @@
                 if (this.socket)
                     this.socket.disconnect()
                 this.offGame = false
-                let io = require('socket.io-client')
+                import io from 'socket.io-client'
                 this.socket = io(window.location.host)
                 this.socket.on('connect', () =>
                 {
