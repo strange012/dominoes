@@ -5,8 +5,6 @@
 let app = require('../main')
 let io = require('../websocket/websocket_new')
 
-let debug = require('debug')('landing:server')
-
 const port = '3000'
 /**
  * Listen on provided port, on all network interfaces.
@@ -22,5 +20,4 @@ function onListening() {
     let bind = typeof addr === 'string'
         ? 'pipe ' + addr
         : 'port ' + addr.port
-    debug('Listening on ' + bind)
 }
