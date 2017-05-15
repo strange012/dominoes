@@ -5,7 +5,7 @@
 let app = require('../main')
 let io = require('../websocket/websocket_new')
 
-const port = '3000'
+let port = process.env.PORT || '3000'
 /**
  * Listen on provided port, on all network interfaces.
  */
