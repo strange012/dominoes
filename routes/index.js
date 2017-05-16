@@ -4,7 +4,7 @@ const fs = require('fs')
 let router = new Router()
 
 router
-    .get('/', async (ctx) =>
+    .get('/*', async (ctx) =>
     {
         ctx.type = 'html'
         ctx.body = fs.createReadStream('./views/index.html')
