@@ -10,14 +10,11 @@
   },
   "dependencies": {
     "@types/aws-sdk": "^0.0.42",
-    "@types/chai": "^3.4.35",
     "@types/knex": "^0.0.43",
     "@types/koa": "^2.0.39",
     "@types/koa-router": "^7.0.21",
-    "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.8",
     "aws-sdk": "^2.16.0",
-    "axios": "^0.16.1",
     "body-parser": "~1.15.2",
     "celebrate": "^4.0.1",
     "cookie-parser": "~1.4.3",
@@ -44,9 +41,5 @@
     "socket.io-client": "^1.7.4",
     "vue": "^2.3.3",
     "vue-loader": "^12.0.4"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
   }
 }
