@@ -1,7 +1,6 @@
 let Koa = require('koa')
 const serve = require('koa-static');
 let path = require('path')
-let favicon = require('serve-favicon')
 let logger = require('koa-logger')
 let body = require('koa-better-body')
 
